@@ -1,0 +1,416 @@
+fileFormatVersion: 2
+guid: d07529f9ea8d0b24985f61034a7d8440
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2859061035227938472
+    second: metro_environment_pieces_0
+  - first:
+      213: 7826838681072939585
+    second: metro_environment_pieces_1
+  - first:
+      213: -2007942405793879964
+    second: metro_environment_pieces_2
+  - first:
+      213: -2068895833757629740
+    second: metro_environment_pieces_3
+  - first:
+      213: 3608064331360718537
+    second: metro_environment_pieces_4
+  - first:
+      213: 6346310199143150092
+    second: metro_environment_pieces_5
+  - first:
+      213: -8907733602054216816
+    second: metro_environment_pieces_6
+  - first:
+      213: 7261350740121437402
+    second: metro_environment_pieces_7
+  - first:
+      213: 6507983742057545878
+    second: metro_environment_pieces_8
+  - first:
+      213: -5791947792952573988
+    second: metro_environment_pieces_9
+  - first:
+      213: 4963030538763931753
+    second: metro_environment_pieces_10
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 650
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: metro_environment_pieces_0
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 2849
+        width: 642
+        height: 2551
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aefbe31ddc6da720800000000000000
+      internalID: 2859061035227938472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metro_environment_pieces_1
+      rect:
+        serializedVersion: 2
+        x: 1439
+        y: 3479
+        width: 1922
+        height: 1921
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 142b3a3ef448e9c60800000000000000
+      internalID: 7826838681072939585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metro_environment_pieces_2
+      rect:
+        serializedVersion: 2
+        x: 3519
+        y: 4279
+        width: 2552
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 468663d350b5224e0800000000000000
+      internalID: -2007942405793879964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metro_environment_pieces_3
+      rect:
+        serializedVersion: 2
+        x: 1439
+        y: 1239
+        width: 1922
+        height: 1922
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d2479f533ec943e0800000000000000
+      internalID: -2068895833757629740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metro_environment_pieces_4
+      rect:
+        serializedVersion: 2
+        x: 3519
+        y: 3159
+        width: 2552
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ce438d946b621230800000000000000
+      internalID: 3608064331360718537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metro_environment_pieces_5
+      rect:
+        serializedVersion: 2
+        x: 6399
+        y: 1089
+        width: 642
+        height: 2552
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c02bd5e708f921850800000000000000
+      internalID: 6346310199143150092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metro_environment_pieces_6
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 129
+        width: 642
+        height: 2552
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0936fbfeb7f516480800000000000000
+      internalID: -8907733602054216816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metro_environment_pieces_7
+      rect:
+        serializedVersion: 2
+        x: 3519
+        y: 2039
+        width: 2552
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad4457e960085c460800000000000000
+      internalID: 7261350740121437402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metro_environment_pieces_8
+      rect:
+        serializedVersion: 2
+        x: 7359
+        y: 1079
+        width: 1922
+        height: 1922
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6908b5d8bb0015a50800000000000000
+      internalID: 6507983742057545878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metro_environment_pieces_9
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 119
+        width: 2552
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdf347b5b2ede9fa0800000000000000
+      internalID: -5791947792952573988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metro_environment_pieces_10
+      rect:
+        serializedVersion: 2
+        x: 6719
+        y: 279
+        width: 2552
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9609070daf930e440800000000000000
+      internalID: 4963030538763931753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      metro_environment_pieces_0: 2859061035227938472
+      metro_environment_pieces_1: 7826838681072939585
+      metro_environment_pieces_10: 4963030538763931753
+      metro_environment_pieces_2: -2007942405793879964
+      metro_environment_pieces_3: -2068895833757629740
+      metro_environment_pieces_4: 3608064331360718537
+      metro_environment_pieces_5: 6346310199143150092
+      metro_environment_pieces_6: -8907733602054216816
+      metro_environment_pieces_7: 7261350740121437402
+      metro_environment_pieces_8: 6507983742057545878
+      metro_environment_pieces_9: -5791947792952573988
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
