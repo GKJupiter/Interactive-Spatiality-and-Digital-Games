@@ -5,17 +5,10 @@ public class PlayerMovement : MonoBehaviour
 {
     [Header("Movement Settings")]
     public float moveSpeed = 5f;
-    public float jumpForce = 10f;
-
-    [Header("Ground Check")]
-    public Transform groundCheck;
-    public float groundCheckRadius = 0.2f;
-    public LayerMask groundLayer;
 
     private Rigidbody2D rb;
     private Animator animator;
     private float horizontalInput;
-    private bool isGrounded;
     private bool isFacingRight = true;
 
     void Start()
@@ -29,17 +22,11 @@ public class PlayerMovement : MonoBehaviour
         // 1. Get Input (GetAxisRaw makes movement snappy instead of floaty)
         horizontalInput = Input.GetAxisRaw("Horizontal");
 
-        // 2. Handle Jumping
-        if (Input.GetButtonDown("Jump") && isGrounded)
-        {
-            rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
-        }
-
-        // 3. Update Animator
+        // 2. Update Animator
         // We use Mathf.Abs to always pass a positive number for speed
         animator.SetFloat("Speed", Mathf.Abs(horizontalInput));
 
-        // 4. Flip Sprite based on direction
+        // 3. Flip Sprite based on direction
         if (horizontalInput > 0 && !isFacingRight)
         {
             Flip();
@@ -52,12 +39,7 @@ public class PlayerMovement : MonoBehaviour
 
     void FixedUpdate()
     {
-        // Physics calculations should happen in FixedUpdate
-        
-        // Check if touching the ground
-        isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
-
-        // Apply movement velocity while preserving vertical (falling/jumping) velocity
+        // Apply movement velocity while preserving vertical (falling) velocity
         rb.linearVelocity = new Vector2(horizontalInput * moveSpeed, rb.linearVelocity.y);
     }
 
