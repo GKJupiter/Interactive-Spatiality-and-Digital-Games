@@ -11,14 +11,7 @@ public class SceneInteract : MonoBehaviour
 
     private bool isPlayerInRange = false;
 
-    void Start()
-    {
-        // Hide the floating text when the game starts
-        if (promptUI != null)
-        {
-            promptUI.SetActive(false);
-        }
-    }
+
 
     void Update()
     {
